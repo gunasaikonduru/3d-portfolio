@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konduru Gunasai - Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: #fcfcfc;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #eaeaea;
+      padding-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      margin: 0 0 10px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .contact-info {
+      font-size: 0.95rem;
+      color: #666;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .contact-info a {
+      color: #0077b5;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 1.4rem;
+      color: #0056b3;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 5px;
+      margin-top: 30px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .section-content {
+      margin-left: 10px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    @media (max-width: 600px) {
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .skill-category {
+      font-weight: bold;
+    }
+    .project, .edu-item {
+      margin-bottom: 20px;
+    }
+    .project-title, .edu-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #222;
+      display: flex;
+      justify-content: space-between;
+    }
+    .project-tech, .edu-date {
+      font-weight: normal;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    ul {
+      margin: 5px 0 0 20px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .print-btn-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .print-btn {
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    .print-btn:hover {
+      background-color: #004085;
+    }
+    @media print {
+      body {
+        padding: 0;
+        background-color: white;
+      }
+      .print-btn-container {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-btn-container">
+    <button class="print-btn" onclick="window.print()">Print / Save to PDF</button>
+  </div>
+
+  <header>
+    <h1>Konduru Gunasai</h1>
+    <div class="contact-info">
+      <span>📞 +91 9618424753</span>
+      <span>✉ <a href="mailto:gunasaikonduru262@gmail.com">gunasaikonduru262@gmail.com</a></span>
+      <span>🔗 <a href="https://www.linkedin.com/in/gunasai-konduru-5a209a34a" target="_blank">LinkedIn</a></span>
+      <span>💻 <a href="https://github.com/gunasaikonduru" target="_blank">GitHub</a></span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="section-content skills-grid">
+      <div><span class="skill-category">Programming Languages:</span> Java, Python</div>
+      <div><span class="skill-category">Frontend:</span> HTML</div>
+      <div><span class="skill-category">Backend:</span> Java</div>
+      <div><span class="skill-category">Database:</span> MySQL</div>
+      <div style="grid-column: 1 / -1;"><span class="skill-category">Core Concepts:</span> Object-Oriented Programming (OOP), Data Structures, Problem Solving</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="section-content">
+      <div class="project">
+        <div class="project-title">
+          <span>Academic Project</span>
+          <span class="project-tech">Java, MySQL</span>
+        </div>
+        <ul>
+          <li>Designed and developed a Java-based application implementing core OOP principles.</li>
+          <li>Integrated MySQL database for efficient data storage and retrieval operations.</li>
+          <li>Implemented modular and reusable code structure to improve maintainability.</li>
+          <li>Performed testing and debugging to ensure application reliability and performance.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="section-content">
+      <ul>
+        <li>Seeking entry-level opportunities to apply Java, Python, and database management skills.</li>
+        <li>Built academic projects demonstrating software development fundamentals and problem-solving abilities.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <div class="section-content">
+      <ul>
+        <li>Completed academic coursework in Java Programming, Python Programming, and Database Management Systems.</li>
+        <li>Developed hands-on experience with Object-Oriented Programming and MySQL through academic projects.</li>
+        <li>Demonstrated strong commitment to learning software development concepts and technologies.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="section-content">
+      <div class="edu-item">
+        <div class="edu-title">
+          <span>NBKR Institute of Science and Technology</span>
+          <span class="edu-date">2022 – 2026</span>
+        </div>
+        <div>B.Tech, CGPA: 6.5 <span style="float: right; color: #666; font-size: 0.9rem;">Gudur, India</span></div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-title">
+          <span>Narayana Junior College</span>
+          <span class="edu-date">2020 – 2022</span>
+        </div>
+        <div>Intermediate, CGPA: 6.7 <span style="float: right; color: #666; font-size: 0.9rem;">Gudur, India</span></div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-title">
+          <span>Sri G.V.S Sankariah English Medium High School</span>
+          <span class="edu-date">2011 – 2020</span>
+        </div>
+        <div>Schooling, Percentage: 87% <span style="float: right; color: #666; font-size: 0.9rem;">India</span></div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
