@@ -42,12 +42,12 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ItO210/3d-portfolio-website.git"
+    "url": "git+https://github.com/gunasaikonduru/3d-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ItO210/3d-portfolio-website/issues"
+    "url": "https://github.com/gunasaikonduru/3d-portfolio/issues"
   }
 }
